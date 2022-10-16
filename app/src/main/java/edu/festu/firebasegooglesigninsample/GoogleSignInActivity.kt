@@ -13,12 +13,13 @@ import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import edu.festu.firebasegooglesigninsample.databinding.ActivityGoogleSignInBinding
 
 class GoogleSignInActivity : AppCompatActivity() {
     // [START declare_auth]
     private lateinit var auth: FirebaseAuth
     // [END declare_auth]
-
+    private lateinit var binding: ActivityGoogleSignInBinding
     private lateinit var googleSignInClient: GoogleSignInClient
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +39,9 @@ class GoogleSignInActivity : AppCompatActivity() {
         // Initialize Firebase Auth
         auth = Firebase.auth
         // [END initialize_auth]
+        binding = ActivityGoogleSignInBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.button2.setOnClickListener { signIn() }
     }
     override fun onStart() {
         super.onStart()
@@ -45,6 +49,7 @@ class GoogleSignInActivity : AppCompatActivity() {
         val currentUser = auth.currentUser
         updateUI(currentUser)
     }
+
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
 
