@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "128082213284",
+    "project_id": "festu-sample-firebase",
+    "storage_bucket": "festu-sample-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128082213284:android:860c9c26d8c128aee32931",
+        "android_client_info": {
+          "package_name": "edu.festu.firebasegooglesigninsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128082213284-62a1dt8l3lk7m9vlq9b149hnilf7m5nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQURKQCSjXSrgPvObwP3Y9BcLG3rQ9BdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128082213284-62a1dt8l3lk7m9vlq9b149hnilf7m5nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128082213284:android:0b3aee4a8569c600e32931",
+        "android_client_info": {
+          "package_name": "edu.festu.ivankluznetsov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128082213284-62a1dt8l3lk7m9vlq9b149hnilf7m5nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQURKQCSjXSrgPvObwP3Y9BcLG3rQ9BdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128082213284-62a1dt8l3lk7m9vlq9b149hnilf7m5nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128082213284:android:41f5e8fad1357a83e32931",
+        "android_client_info": {
+          "package_name": "edu.festu.ivankuznetsov.firebasesample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128082213284-62a1dt8l3lk7m9vlq9b149hnilf7m5nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQURKQCSjXSrgPvObwP3Y9BcLG3rQ9BdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128082213284-62a1dt8l3lk7m9vlq9b149hnilf7m5nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
